@@ -1,0 +1,47 @@
+/* old school */
+div.tooltipoldschool
+{
+	font-size: 11px;
+	font-family: Verdana,Arial;
+	border:solid 1px #000000; 
+	min-width: 200px;
+	padding: 5px;
+	position: absolute; 
+	visibility: hidden; 
+	background-color:#ffffcc;
+}
+
+/* new school*/
+div.tooltipmodern
+{
+	font-size: 11px;
+	font-family: Verdana,Arial;
+	border:solid 1px #CCCCCC; 
+	min-width: 200px;
+	padding: 5px;
+	position: absolute; 
+	visibility: hidden; 
+	background-color: #99CCFF;
+	opacity: .95;
+	/*filter: alpha(opacity=50) blur(add=false, direction=135, strength=6);*/
+	filter: alpha(opacity=95);
+
+}
+
+
+div.ttfilename
+{
+	color: #3300FF;
+	/*color: #330099;*/
+}
+
+div.ttfileimage
+{
+	min-width: 200px;
+}
+
+img.ttfileimage
+{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}

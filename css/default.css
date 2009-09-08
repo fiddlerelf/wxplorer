@@ -1,0 +1,434 @@
+
+body {
+	text-align: center;
+	padding: 0;
+	margin: 10px;
+	/*font-family: verdana, "Lucida Grande", arial, helvetica, sans-serif;*/
+	font: small Georgia, serif;
+}
+
+#wrapper {
+
+	margin: auto;
+	padding: 0 5px 0 5px;
+
+}
+
+#feature {
+	border: solid 1px #868686;
+	background-color: #EEEEEE;
+	border: solid 1px #CCCCCC;
+	background-color: #99CCFF;
+	/*padding: 10px;*/
+	text-align: center;
+	height: 300px;
+	vertical-align: center;
+	margin-top: 50px;
+}
+
+h1, h2 {
+	color: #444444;
+	margin-top: 50px;
+}
+
+#main {
+	border: solid 1px #868686;
+	background-color: #EEEEEE;
+	border: solid 1px #CCCCCC;
+	background-color: #99CCFF;
+	/*padding: 10px;*/
+	text-align: center;
+	height: 300px;
+	width: 400px;
+	vertical-align: center;
+	margin: 50px auto auto auto;
+}
+
+#footer {
+	text-align: center;
+	vertical-align: bottom;
+	height: 20px;
+	/*border-left: solid 1px #C8D5F3;
+	border-right: solid 1px #C8D5F3;
+	border-bottom: solid 1px #C8D5F3;*/
+	padding: 5px;
+	margin: 0 auto 5px auto;
+	font-size: x-small;
+	width: 400px;
+}
+
+#headerRight {
+	float: right;
+	border: none;
+}
+
+#processing {
+	position: absolute;
+	z-index: 100;
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	top: 0;
+	left: 0;
+}
+
+table.editForm {
+	background-color: #FFFFFF;
+	border: none;
+}
+
+table.editForm td {
+	background-color: #EEEEEE;
+	vertical-align: top;
+}
+
+table.editForm td.label {
+	width: 150px;
+}
+
+table.editForm td.quicktextbutton {
+	text-align:	 center;
+}
+
+a, a:hover, a:visited{
+	color: #CC0000;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+	background-color: #D9D9D9;
+	margin: auto;
+	}
+
+tr,th	{
+	padding: 3px;
+	background-color: #FFFFFF;
+}
+
+td {
+	font-size: 12px;
+	padding: 5px;
+	text-align: left;
+}
+
+td a, a:hover, a:visited{
+	color: #CC0000;
+}
+
+th		{
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	background-color: #868686;
+	color: white;
+}
+
+th a, th a:visited, th a:hover {
+
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+th.bool, td.bool, td.center, th.center {
+	text-align: center;
+}
+
+td.deleted, span.deleted {
+	background-color: #FDDCDC;
+}
+
+td.invisible, span.invisible {
+	color: #999999;
+}
+
+table.form {
+	background-color: #FFFFFF;
+	border: none;
+	margin: auto;
+	width: auto;
+}
+
+table.form td {
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+
+table.quicktext td {
+	vertical-align: top;
+}
+
+span.message {
+	color: #CC0000;
+	background-color: #FFFEDB;
+	font-variant: small-caps;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+div.messages {
+	margin: 10px 0 10px 0;
+	/*background-color: #FFFFFF;*/
+	background-color: #FFFEDB;
+	border: solid 1px #000000;
+	text-align: center;
+	padding: 5px;
+	font-size: small;
+}
+
+div.logininfo {
+	font-size: x-small;
+	text-align: right;
+	float: right;
+	width: 100px;
+}
+
+div.loginPrompt {
+	width: 280px;
+	margin: auto;
+}
+
+.loginPrompt table {
+	width: 280px;
+	margin: auto;
+	border: none;
+}
+
+div.loginWelcome {
+	margin: 20px auto 20px auto;
+	color: #000000;
+}
+
+div.studentInfo {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.studentInfo table td {
+
+}
+
+.studentInfo td.label {
+	width: 40px;
+}
+
+div.addData {
+	text-align: left;
+}
+
+.studentInfo table {
+	margin-left: 0px;
+	color: #000000;
+	background-color: #D9D9D9;
+}
+
+input.full {
+	width: 99%;
+}
+
+select {
+	width: 100%;
+}
+
+textarea{
+	width: 99%;
+}
+
+.successmessage {
+	margin: auto;
+	text-align: center;
+}
+
+div.instructions {
+	background-color: #FFFFFF;
+	border: solid 1px #000000;
+	text-align: left;
+	margin: 10px 0 10px 0;
+	padding: 5px;
+	font-size: small;
+}
+
+.instructions ul, .options ul {
+	margin: 5px;
+	/*list-style-type: square;*/
+}
+
+.instructions li, .options li{
+	margin-left: 10px;
+}
+
+table.instructions, table.instructions td {
+	border: none;
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+
+table.options, table.options.td {
+	border: none;
+	background-color: #FFFFFF;
+}
+
+span.navitem {
+	margin-right: 5px;
+	padding: 0 5px 0 5px;
+	border: solid 1px #000000;
+	background-color: #EEEEEE;
+	font-size: 12px;
+}
+
+span.navitem:hover {
+	border: solid 1px #CC0000;
+}
+
+.navitem a, .navitem a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+
+.navitem a:hover {
+	color: #CC0000;
+}
+
+span.noresults {
+	color: #990000;
+	font-variant: small-caps;
+}
+
+div.report, div.batch, div.options {
+	background-color: #FFFFFF;
+	border: solid 1px #000000;
+	text-align: left;
+	margin: 10px 0 10px 0;
+	padding: 5px;
+	font-size: small;
+}
+
+table.report_sortable th {
+	text-transform: capitalize;
+}
+
+td.ruidlist {
+	width: 200px;
+	height: 450px;
+	text-align: center;
+}
+
+div.ruidlist {
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+
+div.addButton {
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.header {
+	background-color: #FFFFFF;
+	color: #CC0000;
+	/*border: dotted 1px #999999;*/
+	border: solid 1px #000000;
+	margin-bottom: 3px;
+	margin-top: 10px;
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: small;
+}
+
+#decform {
+	/*width: 770px;*/
+	margin: auto;
+}
+
+table.majmin {
+	border: none;
+	background-color: #FFFFFF;
+}
+
+table.majmin td {
+	vertical-align: top;
+	background-color: #FFFFFF;
+}
+
+select.majmin{
+	width: 100%;
+}
+
+td.buttons {
+	/*width: 20%;*/
+	text-align: left;
+	background-color: #EEEEEE;
+	width: 90%;
+}
+
+td.mlabel {
+	width: 10%;
+}
+
+td.majmin{
+	width: 90%;
+}
+
+div.majors, div.minors {
+	display: inline;
+}
+
+option {
+	width: auto;
+}
+
+td.mlabel {
+	/*width: 100px;*/
+	whitespace: no-wrap;
+}
+
+td.label {
+	width: 150px;
+	vertical-align: top;
+}
+
+span.undeclare {
+	color: #CC0000;
+	font-variant: small-caps;
+}
+
+legend.majmin {
+	color: #CC0000;
+	font-variant: small-caps;
+}
+
+fieldset {
+	background-color: white;
+}
+
+div.fs {
+	margin-bottom: 20px;
+}
+
+div.decform {
+	background-color: #FFFFFF;
+	border: solid 1px #000000;
+	text-align: left;
+	margin: 10px 0 10px 0;
+	padding: 5px;
+	font-size: small;
+}
+
+table.bland {
+	background-color: #FFFFFF;
+	margin-bottom: 15px;
+	border: none;
+}

@@ -1,0 +1,223 @@
+div.treenode, div.listnode, a,  div.roottreenode
+{
+	/*font-family: Verdana,Arial;
+	font-size: 11px;*/
+	font-family: verdana, "Lucida Grande", arial, helvetica, sans-serif;
+}
+
+
+div.treenode, div.roottreenode
+{
+	padding-left: 21px;
+	margin-left: 0px;
+	padding-top: 0px;
+	/*display: block;*/
+	clear: both;
+}
+
+div.roottreenode {
+	margin-left: -15px;
+}
+
+span.treenode, span.treenodecurrentmodern, span.treenodecurrentoldschool
+{
+	vertical-align: top;
+	margin-left: 3px;
+	
+}
+
+span.treenodecurrentmodern
+{
+	background-color: #99CCFF;
+	border: solid 1px #CCCCCC;
+}
+
+
+span.treenodecurrentoldschool
+{
+	background-color: #CCCCCC;
+}
+
+div.roottreenode
+{
+	padding-left: 0px;
+}
+
+div#treeview, div#listview
+{
+	background-image: none;
+	margin: 0px;
+	padding: 0px;	
+	height: 500px;
+	border: solid 1px #CCCCCC;
+	overflow: auto;
+
+}
+
+div#explorer
+{
+	clear: both;	
+}
+
+div#treeview
+{
+	width: 33%;
+	float: left;	
+	padding: 3px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+div#listview
+{
+	width: 66%;
+	float: right;	
+	padding: 3px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+div.viewslider
+{
+	width:1px; 
+	position: absolute;
+	height: 10px;
+	border: solid 1px #CCCCCC; 
+	cursor: e-resize;
+	padding: 3px 0px 0px 0px;
+	margin: 0px;
+	background-color: #999999;
+	
+}
+
+div.addressbar
+{
+
+}
+
+div#viewwrapper
+{
+	/*clear: both;*/
+}
+
+div.viewwrapper2
+{
+	clear: both;
+}
+
+
+form.addressform
+{
+	float: left;
+}
+
+form.searchform
+{
+	float: right;
+}
+
+.addressformfield, .searchformfield
+{
+	padding: 2px 0px 0px 0px;
+	margin: 0px 0px 0px 3px;
+	vertical-align: top;
+}
+
+.addressformfield
+{
+	background-color: #EEEEEE;	
+}
+
+
+
+.addressformimage, searchformimage
+{
+	border: none;
+}
+
+.searchformimage
+{
+	padding-left: 2px;
+}
+
+div.listnode
+{
+	
+	margin-left: 10px;
+	margin-right: 10px;	
+	width: 200px;
+	float: left;
+	overflow: hidden;
+	/*clear: none;*/
+	
+}
+
+span.listnode
+{
+	vertical-align: top;
+	padding-left: 3px;
+}
+
+div.listinner
+{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;	
+	width: 10px;
+	overflow: hidden;
+}
+
+img.treenode, img.plusimage
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	padding: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	float: none;
+}
+
+img.listnode
+{
+	border: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	float: none;
+	text-decoration: none;
+}
+
+span.listnode
+{
+	/*width: 20px;*/
+	
+}
+
+a.listnode:hover, span.treenode:hover, span.listnode:hover
+{
+	color: Navy;
+	cursor: default;
+	text-decoration: underline;	
+}
+
+a.listnode, a.listnode:visited
+{
+	text-decoration: none;
+	color: Black;		
+	border: none;
+}
+
+a.listnode:hover
+{
+	color: Navy;
+	cursor: default;
+	text-decoration: none;
+}
+
+#logout {
+	text-align: right;
+	height: 20px;
+	clear: both;
+	margin-top: 0px;
+}
+                  

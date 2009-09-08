@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHtml 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head><title>WXplorer!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="SHORTCUT ICON" href="images/wx-logo.gif">
+<link rel="stylesheet" type="text/css" href="css/WX-explorer.css">
+<link rel="stylesheet" type="text/css" href="css/WX-tooltips.css">
+<link rel="stylesheet" type="text/css" href="css/WX-menus.css">
+<script type="text/javascript" language="JavaScript" src="js/prototype.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/scriptaculous.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/sarissa.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/sarissa_dhtml.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/sarissa_ieemu_load.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/sarissa_ieemu_xpath.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-utilities.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-component.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-draggable.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-search.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-history.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-addressbar.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-fileinfo.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-treeview.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-listview.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-explorercontrol.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-explorerhandler.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-tooltip.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/WX-rmbmenu.js"></script>
+<script type="text/javascript" language="JavaScript">
+
+var explorerControl;
+var isIe = document.all ? true : false;
+
+function load() {
+	if (isIe) {
+		explorerControl = new WXExplorer("explorer", "http://192.168.1.100/~ryan/wxplorer/php/", true, "id", MODERN);
+	}
+	else {
+		explorerControl = new WXExplorer("explorer", "http://localhost/~ryan/wx2/php/list.xml", true, "id", MODERN);
+	}
+}
+
+</script>
+
+</head>
+
+<body onload="load();">
+<div id="explorer" class="explorer"></div>
+</body>
+</html>
